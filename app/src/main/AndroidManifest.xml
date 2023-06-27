@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bus_trail2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/school_bus_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/school_bus_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bus_trail2">
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".split_scr_vid"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".introACT"/>
+
+    </application>
+
+</manifest>
