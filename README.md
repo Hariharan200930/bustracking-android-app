@@ -1,5 +1,5 @@
 # bustracking-android-app
-a mobile application that tracks bus to help parents and faculty track their wards and maintain a record
+a mobile application that tracks bus to help parents and faculty track their wards and maintain a record, it has a QR scanner to make it easier for appending users into a tracking group or to update the registory
 
 
 
